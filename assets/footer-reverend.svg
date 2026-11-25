@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="100%" height="100%">
+  <defs>
+    <linearGradient id="footBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#050b0d"/>
+      <stop offset="50%" stop-color="#091517"/>
+      <stop offset="100%" stop-color="#050b0d"/>
+    </linearGradient>
+    <linearGradient id="jadeLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6ee7c8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#6ee7c8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#6ee7c8" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .serif { font-family: 'Georgia', 'Palatino Linotype', 'Times New Roman', serif; }
+      .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="150" rx="14" fill="url(#footBg)" stroke="#9fd8cb" stroke-opacity="0.14" stroke-width="1"/>
+  <rect x="220" y="1" width="760" height="1.5" fill="url(#jadeLine)"/>
+
+  <g text-anchor="middle">
+    <text x="600" y="54" fill="#d9ece9" class="serif" font-size="20" font-style="italic">&#8220;Because hardships strengthen resolve, the steady mind walks forward unmoved.&#8221;</text>
+    <text x="600" y="90" fill="#6ee7c8" class="sans" font-size="13" letter-spacing="5" opacity="0.72">&#26089;&#23681;&#24050;&#30693;&#19990;&#20107;&#33392;&#65292;&#20173;&#35768;&#39134;&#40511;&#33633;&#20113;&#38388;</text>
+    <text x="600" y="122" fill="#6d8f8b" class="mono" font-size="11" letter-spacing="3">DATHEVINCI  &#183;  DEJAVU  &#183;  REVEREND INSANITY</text>
+  </g>
+</svg>
